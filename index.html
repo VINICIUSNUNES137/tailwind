@@ -21,16 +21,16 @@
   </head>
 
   <body
-    class="h-screen bg-cyan-500 grid grid-cols-1 lg:grid-cols-2 font-['Montserrat']"
+    class="h-screen grid grid-cols-1 lg:grid-cols-2 font-['Montserrat'] overflow-y-hidden	"
   >
-    <div class="bg-cyan-500 flex items-center justify-center">
-      <img src="./img/logo_tailwind 1.png" alt="" class="lg:w-3/5 w-full" />
+    <div class="bg-gradient-to-r from-cyan-500 to-blue-600 flex items-center justify-center h-30 lg:h-screen">
+      <img src="./img/logo_tailwind 1.png" alt="" class="lg:w-3/5 w-1/5" />
     </div>
     <div
-      class="bg-neutral-100 lg:min-h-screen lg:flex lg:items-center flex flex-col items-center justify-center"
+      class="bg-neutral-100 lg:min-h-screen lg:flex lg:items-center flex flex-col items-center lg:justify-center pt-20  h-screen "
     > <div class="flex flex-col gap-y-10 items-center">
-      <h1 class="text-cyan-500 font-bold text-5xl tracking-widest ">LOGIN</h1>
-      <div class="flex flex-col items-center gap-y-3 ">
+      <h1 class="text-transparent text-8xl bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-600 font-bold text-5xl tracking-widest ">LOGIN</h1>
+      <div class="flex flex-col items-center gap-y-4 ">
         <input
           id="email-address"
           name="email"
@@ -58,7 +58,9 @@
           class="drop-shadow-2xl relative block w-full appearance-none rounded-full px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-cyan-500 focus:outline-none focus:ring-cyan-500 sm:text-sm"
           placeholder="Repeat password"
         />
-        <div class="flex justify-around w-full">
+        <div class="flex flex-col gap-y-3">
+          <p class="font-medium text-gray-400 text-xs">Sign up with social account</p>
+          <div class="flex justify-around w-full">
         <div class="rounded-full w-10 h-10 bg-stone-100 flex items-center justify-center drop-shadow-md hover:bg-stone-50">
           <a href="#"><img src="./img/gmail.png" alt="" class="w-10 "></a>
         </div>
@@ -69,7 +71,13 @@
           <a href="#"><img src="./img/twitter.png" alt="" class="w-10 "></a>
         </div>
       </div>
+      </div>
   </div>
-  <button class="bg-cyan-500 shadow-lg shadow-blue-500/30 rounded-full w-full h-10 text-white">Subscribe</button>
+  <div class="text-sm">
+    <input type="checkbox" class="bg-cyan-500">
+    <a href="#" class="font-medium text-cyan-400 hover:text-cyan-800">Read User License Agreement</a>
+</div>
+
+  <button class="bg-gradient-to-r from-cyan-500 to-blue-600 shadow-lg shadow-blue-500/30 rounded-full w-full h-10 text-white">Sign Up</button>
   </body>
 </html>
