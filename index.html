@@ -1,80 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="imagem/x-icon" href="img/logo_tailwind.png" />
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="imagem/x-icon"
+      href="img/logo_tailwind.png"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Tailwind Login</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/0efc108669.js" crossorigin="anonymous"></script>
+    <title>Tailwind</title>
+  </head>
 
-<body class="h-screen bg-slate-500 flex justify-center items-center">
-    <div class="w-1/5 h-3/5 bg-zinc-50 rounded-3xl ">
-        <div>
-          <h2 class="mt-6 text-center text-6xl font-bold tracking-tight text-cyan-500">Sign Up</h2>
-      </div>
-        <button class="bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md	">
-<body class="bg-[url('./img/background-image.jpg')]">
-    <button class="bg-indigo-500 rounded-md	">
-      </button>
-      <form>
-        <label class="block">
-          <span class="block text-sm font-medium text-slate-700">Email</span>
-          <input id="email-address" name="email" type="email" autocomplete="email" required
-                            class="relative block w-full appearance-none rounded-md rounded-t-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                            placeholder="Email address">
-          <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
-            Please provide a valid email address.
-          </p>
-        </label>
-        <label class="block">
-            <span class="block text-sm font-medium text-slate-700">Password</span>
-            <input id="password" name="password" type="password" autocomplete="current-password" required
-                            class="relative block w-full appearance-none rounded-md rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
-                            placeholder="Password">
-          </label>
-          <label class="block">
-            <span class="block text-sm font-medium text-slate-700">Repeat password</span>
-            
-            <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
-              Please provide a valid email address.
-            </p>
-          </label> 
-      </form>
-      <div>
-        <div class="flex items-center justify-between">
-            <div class="flex items-center">
-                <input id="remember-me" name="remember-me" type="radio"
-                    class="h-4 w-4 rounded-full border-gray-300 text-cyan-500 focus:ring-cyan-500">
-                <label for="remember-me" class="ml-2 block text-sm text-gray-900">Remember me</label>
-            </div>
-
-            <div class="text-sm">
-                <a href="#" class="font-medium text-cyan-400 hover:text-cyan-800">Read User License Agreement</a>
-            </div>
+  <body
+    class="h-screen bg-cyan-500 grid grid-cols-1 lg:grid-cols-2 font-['Montserrat']"
+  >
+    <div class="bg-cyan-500 flex items-center justify-center">
+      <img src="./img/logo_tailwind 1.png" alt="" class="lg:w-3/5 w-full" />
+    </div>
+    <div
+      class="bg-neutral-100 lg:min-h-screen lg:flex lg:items-center flex flex-col items-center justify-center"
+    > <div class="flex flex-col gap-y-10 items-center">
+      <h1 class="text-cyan-500 font-bold text-5xl tracking-widest ">LOGIN</h1>
+      <div class="flex flex-col items-center gap-y-3 ">
+        <input
+          id="email-address"
+          name="email"
+          type="email"
+          autocomplete="email"
+          required
+          class="drop-shadow-2xl relative block w-full appearance-none rounded-full px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-cyan-500 focus:outline-none focus:ring-cyan-500 sm:text-sm"
+          placeholder="Email address"
+        />
+        <input
+          id="password"
+          name="password"
+          type="password"
+          autocomplete="password"
+          required
+          class="drop-shadow-2xl relative block w-full appearance-none rounded-full px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-cyan-500 focus:outline-none focus:ring-cyan-500 sm:text-sm"
+          placeholder="password"
+        />
+        <input
+          id="password"
+          name="password"
+          type="password"
+          autocomplete="password"
+          required
+          class="drop-shadow-2xl relative block w-full appearance-none rounded-full px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-cyan-500 focus:outline-none focus:ring-cyan-500 sm:text-sm"
+          placeholder="Repeat password"
+        />
+        <div class="flex justify-around w-full">
+        <div class="rounded-full w-10 h-10 bg-stone-100 flex items-center justify-center drop-shadow-md hover:bg-stone-50">
+          <a href="#"><img src="./img/gmail.png" alt="" class="w-10 "></a>
         </div>
-        <div>
-          <button type="submit"
-              class="group relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
-              <span class="absolute inset-y-0 left-0 flex items-center pl-3">
-                  <!-- Heroicon name: mini/lock-closed -->
-                  <svg class="h-5 w-5 text-indigo-500 group-hover:text-indigo-400"
-                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                      aria-hidden="true">
-                      <path fill-rule="evenodd"
-                          d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z"
-                          clip-rule="evenodd" />
-                  </svg>
-              </span>
-              Sign in
-          </button>
+        <div class="rounded-full w-10 h-10 bg-stone-100 flex items-center justify-center drop-shadow-md hover:bg-stone-50">
+          <a href="#"><i class="fab fa-facebook-f text-blue-600 font-bold text-lg"></i></a>
+        </div>
+        <div class="rounded-full w-10 h-10 bg-stone-100 flex items-center justify-center drop-shadow-md hover:bg-stone-50">
+          <a href="#"><img src="./img/twitter.png" alt="" class="w-10 "></a>
+        </div>
       </div>
-
-        <div>
-    </div> 
-    
-</body>
-<!-- <footer></footer> -->
+  </div>
+  <button class="bg-cyan-500 shadow-lg shadow-blue-500/30 rounded-full w-full h-10 text-white">Subscribe</button>
+  </body>
 </html>
