@@ -1,5 +1,3 @@
-i
-
 # <div align="center"><span style="color:cyan">TAILWIND</span></div>
 
 <div>
