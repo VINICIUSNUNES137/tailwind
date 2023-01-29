@@ -2,6 +2,19 @@
 
 <div>
    <img src="./img/logo_tailwind.png" align="left" width="40" align="center"/>
+   <h1>SUMÁRIO</h1>
+
+
+-  [TO DO LIST](#to-do-list)
+-  [TECNOLOGIAS APLICADAS](#tecnologias-aplicadas)
+-  [FERRAMENTAS](#ferramentas)
+-  [CONCEITOS APLICADOS](#conceitos-aplicados)
+-  [COLABORADORES](#colaboradores)
+   
+</div>
+
+<div>
+   <img src="./img/logo_tailwind.png" align="left" width="40" align="center"/>
    <h1>SOBRE</h1>   
 </div>
 
@@ -33,14 +46,15 @@ utilizando o framework sorteado durante a aula (TailWind)
 - CSS3
 - FRAMEWORK
 
-     <div>
-     <img src="./img/logo_tailwind.png" align="left" width="40" align="center"/>
-     <h1>FERRAMENTAS</h1>   
-  </div>
-
-    <a href="https://skillicons.dev">
+<div>
+<img src="./img/logo_tailwind.png" align="left" width="40" align="center"/>
+<h1>FERRAMENTAS</h1> 
+       <a href="https://skillicons.dev">
       <img src="https://skillicons.dev/icons?i=vscode,github,git,figma,html,css,tailwind&theme=dark" />
     </a>
+</div>
+
+
 
 <div>
    <img src="./img/logo_tailwind.png" align="left" width="40" align="center"/>
