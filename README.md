@@ -36,7 +36,7 @@ utilizando o framework sorteado durante a aula (TailWind)
 
 | MOBILE                                     |             DESKTOP             |
 | :----------------------------------------- | :-----------------------------: |
-| <a href="https://viniciusnunes137.github.io/tailwind/"><img heigth="500" src="./img/mobile.png"/></a> | <a href="https://viniciusnunes137.github.io/tailwind/"><img src="./img/desktop.png" /></a> |
+| <a href="https://viniciusnunes137.github.io/tailwind/"><img heigth="400" src="./img/mobile.png"/></a> | <a href="https://viniciusnunes137.github.io/tailwind/"><img heigth="400" src="./img/desktop.png"  /></a> |
 
    <img heigth="600" src="./img/logo_tailwind.png" align="left" width="40" align="center"/>
    <h1>TECNOLOGIAS APLICADAS</h1>   
