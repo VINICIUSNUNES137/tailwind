@@ -63,7 +63,7 @@ utilizando o framework sorteado durante a aula (TailWind)
 
 - FRAMEWORK
 - CDN
-- RESPOSIVIDADE
+- RESPONSIVIDADE
 
 <div>
    <img src="./img/logo_tailwind.png" align="left" width="40" align="center"/>
